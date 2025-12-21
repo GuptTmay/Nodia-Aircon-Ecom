@@ -15,7 +15,7 @@ const nextConfig: NextConfig = {
   // },
   // productionBrowserSourceMaps: false,
   images: {
-    remotePatterns: [new URL('https://picsum.photos/**')],
+    remotePatterns: [new URL('https://picsum.photos/**'), new URL('https://ibb.co/**')],
   },
 };
 
