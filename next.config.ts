@@ -13,7 +13,10 @@ const nextConfig: NextConfig = {
     // !! WARN !!
     ignoreBuildErrors: false,
   },
-  productionBrowserSourceMaps: false
+  productionBrowserSourceMaps: false,
+  images: {
+    remotePatterns: [new URL('https://picsum.photos/**')],
+  },
 };
 
 export default nextConfig;
